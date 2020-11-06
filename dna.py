@@ -22,8 +22,7 @@ class DNA_Parsing:
                 t_count += 1
         output = [a_count, c_count, g_count, t_count]
 
-        for i in len(output):
-            return i
+        return "The A, C, G, T count is:\n --> " + str(output)
 
 test = DNA_Parsing()
 
