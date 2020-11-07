@@ -21,11 +21,16 @@ class DNA_Parsing:
                 g_count += 1
             elif i == "T":
                 t_count += 1
-        output = [a_count, c_count, g_count, t_count]
 
-        # the return statement gives a nice output outside of a list
-        print("The A, C G and T Count is:")
-        return " ".join(str(x) for x in output)
+        # Prints the amount of A, C, T and G in the provided sequence
+        print(f"Number of A values --> {a_count}")
+        print(f"Number of C values --> {c_count}")
+        print(f"Number of G values --> {g_count}")
+        print(f"Number of T values --> {t_count}")
+
+        #output = [a_count, c_count, g_count, t_count]
+        #print("The A, C G and T Count is:")
+        #return " ".join(str(x) for x in output)
 
 
 # Calls an object and runs the process
